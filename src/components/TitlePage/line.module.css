@@ -1,0 +1,9 @@
+.line {
+    width: 16rem;
+    height: 3px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #FF9C1B, #EC1B09);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
