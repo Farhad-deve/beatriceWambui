@@ -7,3 +7,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.titleSize {
+    font-size: clamp(2rem, 3vw, 2.5rem);
+}

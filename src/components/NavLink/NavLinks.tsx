@@ -9,7 +9,7 @@ const NavLinks = () => {
   return (
     <>
       <nav>
-        <ul className={`flex items-center justify-center md-items-end font-f-Raleway font-600 bg-light-gray-2 rounded-20px py-0-5r ${styles.linksContainer}`}>
+        <ul className={`flex items-center justify-between md-items-end font-f-Raleway font-600 bg-light-gray-2 rounded-20px py-0-5r ${styles.linksContainer}`}>
           <li>
             <NavLink
               to="/"
@@ -97,7 +97,7 @@ const NavLinks = () => {
               Contact
             </NavLink>
           </li>
-        </ul>
+        </ul> 
       </nav>
     </>
   );

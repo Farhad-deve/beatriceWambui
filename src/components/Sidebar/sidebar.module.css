@@ -1,0 +1,19 @@
+.profilePicture {
+    width: clamp(10rem, 12vw, 15rem);
+}
+.infoText { 
+    font-size: clamp(0.7rem, 1vw, 1rem);
+}
+/* .sideBar {
+    transform: translateY(3rem);
+} */
+.sidebarContent {
+    transform: translateY(-3rem);
+}
+
+.downloadBtn {
+    background: linear-gradient(to right, #FF9C1B, #EC1B09);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
