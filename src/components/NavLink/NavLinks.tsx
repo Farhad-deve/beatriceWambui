@@ -8,7 +8,7 @@ const NavLinks = () => {
 
   return (
     <>
-      <nav>
+      <nav className="w-full md-w-auto">
         <ul className={`flex items-center justify-between md-items-end font-f-Raleway font-600 bg-light-gray-2 rounded-20px py-0-5r ${styles.linksContainer}`}>
           <li>
             <NavLink

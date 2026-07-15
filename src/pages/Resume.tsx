@@ -3,7 +3,11 @@ import TitlePage from "../components/TitlePage/TitlePage";
 const Resume = () => {
   return (
     <>
-      <TitlePage>Resume</TitlePage>
+      <div>
+        <TitlePage>Resume</TitlePage>
+
+        
+      </div>
     </>
   );
 };

@@ -11,8 +11,8 @@ const MainLayout = () => {
           <NavLinks />
         </section>
 
-        <section className="flex flex-col md-flex-row-reverse gap-4r md-gap-1-5r justify-between">
-          <div className="bg-white w-full px-2-5r py-1r rounded-20px">
+        <section className="flex flex-col md-items-start lg-items-stretch md-flex-row-reverse gap-4r md-gap-1-5r justify-between">
+          <div className="bg-white w-full px-1r md-px-2-5r py-1r rounded-20px">
             <Outlet/>
           </div>
 
