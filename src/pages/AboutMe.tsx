@@ -1,5 +1,11 @@
 import TitlePage from "../components/TitlePage/TitlePage";
 
+// Images
+import codeIcon from '../assets/icons/code-icon.svg';
+import appIcon from '../assets/icons/app-icon.svg';
+import designIcon from '../assets/icons/ux-icon.svg';
+import mentorIcon from '../assets/icons/mentor-icon.svg'
+
 const AboutMe = () => {
   return (
     <>
@@ -20,7 +26,7 @@ const AboutMe = () => {
             <div className="grid lg-grid-cols-2 gap-1-5r">
               <div className="py-1r px-1r md-px-1-5r rounded-20px bg-light-orange-2 flex flex-col items-start gap-0-5r justify-center">
                 <h3 className="font-600 font-f-Poppins flex items-center gap-0-5r">
-                  <img src="assets/icons/code-icon.svg" alt="Web Development" />
+                  <img src={codeIcon} alt="Web Development" />
                   Web Development
                 </h3>
 
@@ -36,7 +42,7 @@ const AboutMe = () => {
 
               <div className="py-1r px-1r md-px-1-5r rounded-20px bg-light-gray-2 flex flex-col items-start gap-0-5r justify-center">
                 <h3 className="font-600 font-f-Poppins flex items-center gap-0-5r">
-                  <img src="assets/icons/app-icon.svg" alt="App Development" />
+                  <img src={appIcon} alt="App Development" />
                   App Development
                 </h3>
 
@@ -52,7 +58,7 @@ const AboutMe = () => {
 
               <div className="py-1r px-1r md-px-1-5r rounded-20px bg-light-gray-2 flex flex-col items-start gap-0-5r justify-center">
                 <h3 className="font-600 font-f-Poppins flex items-center gap-0-5r">
-                  <img src="assets/icons/ux-icon.svg" alt="UI/UX Designing" />
+                  <img src={designIcon} alt="UI/UX Designing" />
                   UI/UX Designing
                 </h3>
 
@@ -66,7 +72,7 @@ const AboutMe = () => {
 
               <div className="py-1r px-1r md-px-1-5r rounded-20px bg-light-orange-2 flex flex-col items-start gap-0-5r justify-center">
                 <h3 className="font-600 font-f-Poppins flex items-center gap-0-5r">
-                  <img src="assets/icons/mentor-icon.svg" alt="Mentorship" />
+                  <img src={mentorIcon} alt="Mentorship" />
                   Mentorship
                 </h3>
 
@@ -80,7 +86,6 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </>

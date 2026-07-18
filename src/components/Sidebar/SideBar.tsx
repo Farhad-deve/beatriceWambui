@@ -1,5 +1,17 @@
 import styles from './sidebar.module.css';
 
+// Images
+import profilePicture from '../../assets/images/profile-picture.png';
+
+import facebookIcon from '../../assets/logos/facebook.svg';
+import twitterIcon from '../../assets/logos/twitter.svg';
+import linkedinIcon from '../../assets/logos/linkedin.svg';
+import githubIcon from '../../assets/logos/github.svg';
+
+import phoneIcon from '../../assets/icons/phone.svg';
+import locationIcon from '../../assets/icons/location.svg';
+import downloadIcon from '../../assets/icons/download-icon.svg';
+
 const SideBar = () => {
   return (
     <>
@@ -7,7 +19,7 @@ const SideBar = () => {
 
         <div className={`flex flex-col gap-1r items-center text-center px-1r ${styles.sidebarContent}`}>
           <img
-            src="assets/images/profile-picture.png"
+            src={profilePicture}
             alt="Beatrice Wambui image" className={styles.profilePicture}
           />
 
@@ -19,25 +31,25 @@ const SideBar = () => {
               href="#"
               className="w-4r h-4r bg-light-gray-2 rounded-20px flex items-center justify-center"
             >
-              <img src="assets/logos/facebook.svg" alt="Facebook" />
+              <img src={facebookIcon} alt="Facebook" />
             </a>
             <a
               href="#"
               className="w-4r h-4r bg-light-gray-2 rounded-20px flex items-center justify-center"
             >
-              <img src="assets/logos/linkedin.svg" alt="" />
+              <img src={linkedinIcon} alt="Linkedin" />
             </a>
             <a
               href="#"
               className="w-4r h-4r bg-light-gray-2 rounded-20px flex items-center justify-center"
             >
-              <img src="assets/logos/twitter.svg" alt="" />
+              <img src={twitterIcon} alt="Twitter" />
             </a>
             <a
               href="#"
               className="w-4r h-4r bg-light-gray-2 rounded-20px flex items-center justify-center"
             >
-              <img src="assets/logos/github.svg" alt="" />
+              <img src={githubIcon} alt="Github" />
             </a>
           </div>
 
@@ -45,7 +57,7 @@ const SideBar = () => {
             <div className='flex flex-col gap-1r w-full'>
               <div className='flex items-center gap-0-5r md-gap-1r py-1r md-px-0-5r border-b-2-gray-1'>
                 <div>
-                  <img src="assets/icons/phone.svg" alt="Phone icon" />
+                  <img src={phoneIcon} alt="Phone icon" />
                 </div>
 
                 <div>
@@ -70,7 +82,7 @@ const SideBar = () => {
 
               <div className='flex items-center gap-0-5r md-gap-1r py-1r md-px-0-5r border-b-2-gray-1'>
                 <div>
-                  <img src="assets/icons/location.svg" alt="Location icon" />
+                  <img src={locationIcon} alt="Location icon" />
                 </div>
 
                 <div>
@@ -81,7 +93,7 @@ const SideBar = () => {
             </div>
 
             <button type="button" className={`${styles.downloadBtn} flex items-center justify-center font-f-Raleway text-white font-600 gap-0-5r rounded-20px border-none px-1r py-0-5r`}>
-              <img src="assets/icons/download-icon.svg" alt="Download icon" />
+              <img src={downloadIcon} alt="Download icon" />
               Download Resume
             </button>
           </div>

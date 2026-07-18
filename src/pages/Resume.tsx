@@ -1,6 +1,10 @@
 import Tag from "../components/tag/Tag";
 import TitlePage from "../components/TitlePage/TitlePage";
 
+// Images
+import educationIcon from '../assets/icons/education-icon.svg';
+import experienceIcon from '../assets/icons/experience-icon.svg';
+
 const Resume = () => {
   return (
     <>
@@ -10,7 +14,7 @@ const Resume = () => {
         <div className="flex flex-col justify-between lg-flex-row gap-1-5r">
           <div className="flex flex-col gap-1r flex-1">
             <h1 className="flex items-center gap-0-5r font-f-Poppins font-500 tracking-2px">
-              <img src="assets/icons/education-icon.svg" alt="Education" />
+              <img src={educationIcon} alt="Education" />
               Education
             </h1>
 
@@ -29,7 +33,7 @@ const Resume = () => {
           
           <div className="flex flex-col gap-1r flex-1">
             <h1 className="flex items-center gap-0-5r font-f-Poppins font-500 tracking-2px">
-              <img src="assets/icons/experience-icon.svg" alt="Experience" />
+              <img src={experienceIcon} alt="Experience" />
               Experience
             </h1>
 

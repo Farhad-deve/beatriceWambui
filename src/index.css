@@ -92,7 +92,9 @@ img {
 
 /* Typography */
 .text-white { color: var(--white); }
+.text-red { color: var(--red); }
 .text-black { color: var(--black); }
+.text-gray-3 { color: var(--gray-3);}
 .text-dark-1 { color: var(--dark-1); }
 .text-dark-2 { color: var(--dark-2); }
 
@@ -169,6 +171,7 @@ img {
 }
 .p-0-5r { padding: 0.5rem; }
 .p-1r { padding: 1rem; }
+.p-1-5r { padding: 1.5rem; }
 
 /* Positions */
 .absolute { position: absolute; }
@@ -238,6 +241,8 @@ img {
     .md-pointer-events-none { pointer-events: none; }
     .md-translate-x-0 { transform: translateX(0); }
     .md-w-auto { width: auto; }
+
+    .md-text-1r { font-size: 1rem; }
 
     .md-leading-120p { line-height: 120%; }
     .md-text-center { text-align: center; }
