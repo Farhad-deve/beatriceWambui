@@ -61,6 +61,7 @@ ul {
 img {
     max-width: 100%;
 }
+input,textarea { outline: none; }
 
 /* Utils */
 
@@ -99,6 +100,7 @@ img {
 .text-dark-2 { color: var(--dark-2); }
 
 .text-0-8r { font-size: 0.8rem; }
+.text-1-1r { font-size: 1.1rem; }
 
 .font-f-Poppins { font-family: 'Poppins', sans-serif}
 .font-f-Raleway { font-family: 'Raleway', sans-serif}
@@ -121,6 +123,9 @@ img {
 .border-none { border: none; }
 
 .border-b-2-gray-1 { border-bottom: 2px solid var(--gray-1); }
+.border-b-2-gray-2 { border-bottom: 2px solid var(--gray-2); }
+
+.border-b-2-red { border-bottom: 2px solid var(--red); }
 
 /* Backgrounds */
 .bg-transparent { background-color: transparent; }
@@ -152,6 +157,10 @@ img {
 .py-1r {
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+.py-2r {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .px-0-5r {
     padding-left: 0.5rem;
@@ -185,6 +194,8 @@ img {
 .z-10 { z-index: 10; }
 .z-15 { z-index: 15; }
 
+.translate-y-n-100 { transform: translateY(-100%); }
+.translate-y-0 { transform: translateY(0); }
 .translate-x-100 { transform: translateX(100%); }
 .translate-x-0 { transform: translateX(0); }
 
@@ -207,6 +218,7 @@ img {
 .pointer-events-auto { pointer-events: auto; }
 .overflow-hidden { overflow: hidden; }
 .cursor-pointer { cursor: pointer; }
+.resize-none { resize: none; }
 
 /* Hover effect */
 .hover-text-white:hover { color: var(--white); }

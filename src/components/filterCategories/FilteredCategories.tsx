@@ -1,5 +1,4 @@
 import { NavLink, useParams } from "react-router-dom";
-import styles from "./filteredC.module.css";
 
 // Images
 import appDevelopment from "../../assets/images/app-development.png";

@@ -1,0 +1,6 @@
+.buttonGr {
+    border: 2px solid transparent;
+    background-image: linear-gradient(#F8FBFB, #F8FBFB), linear-gradient(to bottom, #FD8A18, #EE2C0B);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
