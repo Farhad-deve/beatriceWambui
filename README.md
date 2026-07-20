@@ -18,14 +18,14 @@ This portfolio is built using **React** and **TypeScript**, leveraging **React R
 ## 📸 Screenshots
 
 ### About Me Page
-![About Me](AboutMe-screenshot.png)
+![About Me](./public/AboutMe-screenshot.png)
 
 ### Resume Page
-![Resume](Resume-screenshot.png)
+![Resume](./public/Resume-screenshot.png)
 
 ### Portfolio Page
-![Portfolio](Portfolio-screenshot.png)
+![Portfolio](./public/Portfolio-screenshot.png)
 
 ### Contact Page
-![Contact](Contact-screenshot.png)
+![Contact](./public/Contact-screenshot.png)
 
