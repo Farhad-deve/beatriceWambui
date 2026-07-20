@@ -12,10 +12,10 @@ const router = createBrowserRouter([
         element: <App />,
         children: [
             {
-                path: '/beatriceWambui',
+                path: '/',
                 element: <MainLayout />,
                 children : [
-                    { path: '/beatriceWambui', element: <AboutMe /> },
+                    { path: '/', element: <AboutMe /> },
                     { path: '/resume', element: <Resume /> },
                     { path: '/portfolio', element: <Portfolio />,
                         children: [
@@ -27,6 +27,6 @@ const router = createBrowserRouter([
             }
         ]
     }
-])
+], { basename: 'beatriceWambui'})
 
 export default router
